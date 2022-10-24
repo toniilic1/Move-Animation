@@ -4,7 +4,8 @@ import tkinter as tk
 def main(): 
     root = tk.Tk()
     root.title('Move Animation')
-  
+    root.resizable(False,False)
+
     WIDTH = 500
     HEIGHT = 500
   
